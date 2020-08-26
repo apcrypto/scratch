@@ -10,3 +10,11 @@ canvas {
   right: 0;
   background-color: transparent;
 }
+
+#defaultCanvas0 {
+  z-index: 1;
+}
+
+#defaultCanvas1 {
+  z-index: 2;
+}
