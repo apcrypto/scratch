@@ -42,7 +42,7 @@ function draw() {
   image(video, 0, 0, 640, 272);
   image(maskedVideo, 0, 0, 640, 272);
 
-  if (mouseIsPressed) {
+  if (touchStarted) {
     mask.image(maskImage, mouseX, mouseY, 100, 100);
   }
   maskedVideo = video2.get(0, 0, 640, 272);
